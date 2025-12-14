@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mint-50: #f0faf4;
+  --color-mint-100: #dbf3e5;
+  --color-mint-200: #B7E5CD;
+  --color-mint-300: #8ed4af;
+  --color-mint-400: #5fbd8c;
+  --color-mint-500: #3da36f;
+  --color-mint-600: #2d8358;
+  --color-mint-700: #266948;
+  --color-mint-800: #22543b;
+  --color-mint-900: #1e4532;
+  --color-mint: #B7E5CD;
+
+  --color-sage-50: #f2f8f7;
+  --color-sage-100: #ddeeed;
+  --color-sage-200: #bededd;
+  --color-sage-300: #8ABEB9;
+  --color-sage-400: #66a8a4;
+  --color-sage-500: #4c8d8a;
+  --color-sage-600: #3d7371;
+  --color-sage-700: #345d5c;
+  --color-sage-800: #2d4d4c;
+  --color-sage-900: #284241;
+  --color-sage: #8ABEB9;
+
+  --color-navy-50: #f3f7f9;
+  --color-navy-100: #e1eaef;
+  --color-navy-200: #c6d7e1;
+  --color-navy-300: #9ebccc;
+  --color-navy-400: #6f99af;
+  --color-navy-500: #547d95;
+  --color-navy-600: #48677d;
+  --color-navy-700: #3f5668;
+  --color-navy-800: #305669;
+  --color-navy-900: #2c4453;
+  --color-navy: #305669;
+
+  --color-terracotta-50: #faf6f4;
+  --color-terracotta-100: #f4ebe5;
+  --color-terracotta-200: #ebd5ca;
+  --color-terracotta-300: #ddb8a4;
+  --color-terracotta-400: #C1785A;
+  --color-terracotta-500: #bb7352;
+  --color-terracotta-600: #ad6245;
+  --color-terracotta-700: #904e3a;
+  --color-terracotta-800: #764234;
+  --color-terracotta-900: #613a2f;
+  --color-terracotta: #C1785A;
+}
+
+/* Light theme (default) */
+:root {
+  --bg-primary: #B7E5CD;
+  --bg-secondary: #8ABEB9;
+  --text-primary: #305669;
+  --text-secondary: #3f5668;
+  --accent: #C1785A;
+  --accent-hover: #ad6245;
+}
+
+/* Dark theme */
+.dark {
+  --bg-primary: #1a2a33;
+  --bg-secondary: #2c4453;
+  --text-primary: #B7E5CD;
+  --text-secondary: #8ABEB9;
+  --accent: #C1785A;
+  --accent-hover: #ddb8a4;
+}
+
+@theme inline {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+}
